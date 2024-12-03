@@ -32,7 +32,8 @@ Import the module.
 ```js
 import mempoolJS from '@mempool/mempool.js';
 
-// default mempool.space endpointsconst { bitcoin, liquid } = mempoolJS();
+// default mempool.space endpointsconst { bitcoin, liquid } = mempoolJS(![incoming-vbytes-2h-1733241476](https://github.com/user-attachments/assets/c7092f77-8b3c-4af1-a0bf-32ba2a2d4fa8)
+);
 
 // (optional) your custom endpoints
 const { bitcoin } = mempoolJS({
@@ -66,7 +67,8 @@ Call `mempoolJS()` function to access the API methods.
 
 ```js
 // default mempool.space endpoints
-const { bitcoin } = mempoolJS();
+const { bitcoin } =![acceleration-fees-1w-1733241418](https://github.com/user-attachments/assets/40bec43a-7049-4602-b3a9-3cdf7b41c523)
+ mempoolJS();
 
 // (optional) your custom endpoints
 const { bitcoin } = mempoolJS({
